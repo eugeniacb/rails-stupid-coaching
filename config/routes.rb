@@ -3,5 +3,4 @@ Rails.application.routes.draw do
   # verb "url", to: "controller#action"
   root to: 'questions#home'
   get '/answer', to: 'questions#answer'
-  get '/home', to: 'questions#answer'
 end
